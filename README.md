@@ -1,1 +1,6 @@
-# nodejs-poc
+# Node js POC
+
+```
+npm install
+```
+
