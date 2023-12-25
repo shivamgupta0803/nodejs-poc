@@ -1,6 +1,7 @@
 const router = require("express").Router();
 
 const path = require("path");
+const product = require("../Productdata/product");
 const apiMiddleware = require("../middleware/apikey");
 
 router.get("/", (req, res) => {
@@ -15,17 +16,8 @@ router.get("/about", (req, res) => {
   });
 });
 
-router.get("/api/product", apiMiddleware, (req, res) => {
-  res.json([
-    {
-      id: "10",
-      name: "chrome",
-    },
-    {
-      id: "12",
-      name: "firefox",
-    },
-  ]);
+router.get("/api/product", (req, res) => {
+  res.json({product});
 });
 
 module.exports = router;
