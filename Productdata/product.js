@@ -1,117 +1,101 @@
-let date = Date();
-let sizeVal = "small";
 
-function* idMaker() {
-    let index = 0;
-    while (true) {
-      yield index++;
-    }
-  }
-  const gen = idMaker();
-  gen.next().value
-  
 
-// image = document.getElementById('img');
 const productList = [
   {
+    image: `http://localhost:8000/uploads/bakery-pizza.jpg`,
+    name: "bakery-pizza",
+    price: "299",
+    size: "small",
+    id: "1",
+  },
 
-    createdAt:Date(),
+  {
     
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    image: `http://localhost:8000/uploads/cheese-pizza.jpg`,
+    name: "cheese-pizza",
+    price: "199",
+    size: "small",
+    id: "2",
   },
 
 
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/capsicum-tomato.jpg`,
+    name: "capsicum-tomato",
+    price: "179",
+    size: "small",
+    id: "3",
   },
 
 
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/tomato-chilli-pizza.jpg`,
+    name: "tomato-chilli",
+    price: "399",
+    size: "small",
+    id: "4",
   },
 
 
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/whole-baked-pizza.jpg`,
+    name: "whole-baked",
+    price: "249",
+    size: "small",
+    id: "5",
   },
 
 
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/vegetarian-pizza.jpg`,
+    name: "vegetarian-pizza",
+    price: "149",
+    size: "small",
+    id: "6",
   },
 
 
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/peproni-pizza.jpg`,
+    name: "peproni-pizza",
+    price: "99",
+    size: "small",
+    id: "7",
   },
 
 
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
-  },
-
-
-  {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/italian-pizza.jpg`,
+    name: "italian-pizza",
+    price: "129",
+    size: "small",
+    id: "8",
   },
 
   
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/white-pizza.png`,
+    name: "white-pizza",
+    price: "279",
+    size: "small",
+    id: "9",
   },
 
   
   {
-    createdAt:Date(),
-    image: `Not avilable$`,
-    name: "pizza Hunt",
-    price: "100",
-    size: sizeVal,
-    id: gen.next().value,
+    
+    image: `http://localhost:8000/uploads/western-pizza.jpg`,
+    name: "western-pizza",
+    price: "149",
+    size: "small",
+    id: "10",
   },
 
 

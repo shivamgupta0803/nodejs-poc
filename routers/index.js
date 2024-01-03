@@ -16,7 +16,12 @@ router.get("/about", (req, res) => {
   });
 });
 
-router.get("/api/product", (req, res) => {
+router.get("/api/product/:id", (req, res) => { 
+  res.json({product});
+});
+
+
+router.post("/api/product/cart-items", (req, res) => { 
   res.json({product});
 });
 

@@ -4,10 +4,11 @@ const path = require("path");
 const mainRouter = require('./routers/index');
 
 const app = express();
-
+ 
 app.set("view engine", "ejs");
 
 app.use(express.static('views'));
+app.use('/uploads', express.static('Productdata/images'));
 
 
 app.use(mainRouter);
